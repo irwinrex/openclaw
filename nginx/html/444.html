@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Block</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); min-height: 100vh; display: flex; align-items: center; justify-content: center; color: #fff; }
+        .container { text-align: center; padding: 2rem; }
+        .shield-icon { font-size: 6rem; margin-bottom: 1rem; }
+        .error-code { font-size: 5rem; font-weight: 700; color: #e94560; text-shadow: 0 0 20px rgba(233, 69, 96, 0.5); }
+        .error-title { font-size: 2rem; margin: 1rem 0; color: #fff; }
+        .error-message { font-size: 1.1rem; color: #a0a0a0; margin-bottom: 2rem; max-width: 500px; }
+        .info-box { background: rgba(233, 69, 96, 0.1); border: 1px solid rgba(233, 69, 96, 0.3); padding: 1rem; border-radius: 8px; margin-bottom: 2rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="shield-icon">🛡️</div>
+        <div class="error-code">BLOCKED</div>
+        <h1 class="error-title">Security Policy Violation</h1>
+        <div class="info-box">
+            <p class="error-message">Your request was blocked by our security policy.</p>
+            <p class="error-message">This may be due to suspicious activity or invalid input patterns.</p>
+        </div>
+        <p class="error-message">If you believe this is an error, please contact support.</p>
+    </div>
+</body>
+</html>
